@@ -1,5 +1,5 @@
-import com.sikulix.core.SX;
-import com.sikulix.devices.hook.HookDevice;
+//import com.sikulix.core.SX;
+//import com.sikulix.devices.hook.HookDevice;
 import org.junit.*;
 
 
@@ -45,9 +45,9 @@ public class TestHook {
   @Test
   public void test_000_basic() {
     if (shouldRun()) {
-      HookDevice hook = (HookDevice) new HookDevice().start();
-      SX.pause(2);
-      hook.stop();
+//      HookDevice hook = (HookDevice) new HookDevice().start();
+//      SX.pause(2);
+//      hook.stop();
     }
   }
 }
